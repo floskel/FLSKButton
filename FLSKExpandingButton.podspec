@@ -1,11 +1,15 @@
 Pod::Spec.new do |s|
   s.name         = "FLSKExpandingButton"
   s.version      = "0.0.1"
-  s.summary      = "A short description of FLSKExpandingButton. button is funny so is podspecs."
-  
-  s.homepage     = "http://floskel.com"
+  s.summary      = "Expanding button."
+  s.homepage     = "https://github.com/subdigital/BSModalPickerView"
 
-  s.author       = { "Floskel" => "karlofk@gmail.com" }
+  s.license      = { :type => 'MIT', :file => 'LICENSE' }
+  s.author       = { "Karlo Kristensen" => "karlo@floskel.com" }
+  s.source       = { 
+    :git => "https://github.com/floskel/FLSKButton.git", 
+    :tag => "0.1"
+  }
 
-  s.source       = { :git => "git@github.com:floskel/FLSKButton.git", :tag => "0.0.1" }
+  s.source_files = '*.{h,m}'
 end
